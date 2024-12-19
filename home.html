@@ -1,0 +1,1595 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>GridX</title>
+</head>
+<body>
+    <div id="HOME" class="home_container">
+        <div class="navbar">
+            <div class="logo">
+                <a href='/home'><img src="./img/logo.svg" alt=""></a>
+            </div>
+            <div class="nav_links">
+                <p><a href="#HOME">Home</a></p>
+                <p><a href="#ABOUT">About</a></p>
+                <p><a href="#SERVICES">Services</a></p>
+                <p><a href="#WORKS">Portfolio</a></p>
+                <p><a href="#CONTACT">Contact</a></p>
+            </div>
+            <div class="nav_btn">
+                <label class="theme-switch">
+                    <input onclick='back_style1()' type="checkbox" class="theme-switch__checkbox" id="checkbox2">
+                    <div class="theme-switch__container">
+                        <div class="theme-switch__circle-container">
+                            <div class="theme-switch__sun-moon-container">
+                                <div class="theme-switch__moon">
+                                    <div class="theme-switch__spot"></div>
+                                    <div class="theme-switch__spot"></div>
+                                    <div class="theme-switch__spot"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme-switch__clouds"></div>
+                        <div class="theme-switch__stars-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 55" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M135.831 3.00688C135.055 3.85027 134.111 4.29946 133 4.35447C134.111 4.40947 135.055 4.85867 135.831 5.71123C136.607 6.55462 136.996 7.56303 136.996 8.72727C136.996 7.95722 137.172 7.25134 137.525 6.59129C137.886 5.93124 138.372 5.39954 138.98 5.00535C139.598 4.60199 140.268 4.39114 141 4.35447C139.88 4.2903 138.936 3.85027 138.16 3.00688C137.384 2.16348 136.996 1.16425 136.996 0C136.996 1.16425 136.607 2.16348 135.831 3.00688ZM31 23.3545C32.1114 23.2995 33.0551 22.8503 33.8313 22.0069C34.6075 21.1635 34.9956 20.1642 34.9956 19C34.9956 20.1642 35.3837 21.1635 36.1599 22.0069C36.9361 22.8503 37.8798 23.2903 39 23.3545C38.2679 23.3911 37.5976 23.602 36.9802 24.0053C36.3716 24.3995 35.8864 24.9312 35.5248 25.5913C35.172 26.2513 34.9956 26.9572 34.9956 27.7273C34.9956 26.563 34.6075 25.5546 33.8313 24.7112C33.0551 23.8587 32.1114 23.4095 31 23.3545ZM0 36.3545C1.11136 36.2995 2.05513 35.8503 2.83131 35.0069C3.6075 34.1635 3.99559 33.1642 3.99559 32C3.99559 33.1642 4.38368 34.1635 5.15987 35.0069C5.93605 35.8503 6.87982 36.2903 8 36.3545C7.26792 36.3911 6.59757 36.602 5.98015 37.0053C5.37155 37.3995 4.88644 37.9312 4.52481 38.5913C4.172 39.2513 3.99559 39.9572 3.99559 40.7273C3.99559 39.563 3.6075 38.5546 2.83131 37.7112C2.05513 36.8587 1.11136 36.4095 0 36.3545ZM56.8313 24.0069C56.0551 24.8503 55.1114 25.2995 54 25.3545C55.1114 25.4095 56.0551 25.8587 56.8313 26.7112C57.6075 27.5546 57.9956 28.563 57.9956 29.7273C57.9956 28.9572 58.172 28.2513 58.5248 27.5913C58.8864 26.9312 59.3716 26.3995 59.9802 26.0053C60.5976 25.602 61.2679 25.3911 62 25.3545C60.8798 25.2903 59.9361 24.8503 59.1599 24.0069C58.3837 23.1635 57.9956 22.1642 57.9956 21C57.9956 22.1642 57.6075 23.1635 56.8313 24.0069ZM81 25.3545C82.1114 25.2995 83.0551 24.8503 83.8313 24.0069C84.6075 23.1635 84.9956 22.1642 84.9956 21C84.9956 22.1642 85.3837 23.1635 86.1599 24.0069C86.9361 24.8503 87.8798 25.2903 89 25.3545C88.2679 25.3911 87.5976 25.602 86.9802 26.0053C86.3716 26.3995 85.8864 26.9312 85.5248 27.5913C85.172 28.2513 84.9956 28.9572 84.9956 29.7273C84.9956 28.563 84.6075 27.5546 83.8313 26.7112C83.0551 25.8587 82.1114 25.4095 81 25.3545ZM136 36.3545C137.111 36.2995 138.055 35.8503 138.831 35.0069C139.607 34.1635 139.996 33.1642 139.996 32C139.996 33.1642 140.384 34.1635 141.16 35.0069C141.936 35.8503 142.88 36.2903 144 36.3545C143.268 36.3911 142.598 36.602 141.98 37.0053C141.372 37.3995 140.886 37.9312 140.525 38.5913C140.172 39.2513 139.996 39.9572 139.996 40.7273C139.996 39.563 139.607 38.5546 138.831 37.7112C138.055 36.8587 137.111 36.4095 136 36.3545ZM101.831 49.0069C101.055 49.8503 100.111 50.2995 99 50.3545C100.111 50.4095 101.055 50.8587 101.831 51.7112C102.607 52.5546 102.996 53.563 102.996 54.7273C102.996 53.9572 103.172 53.2513 103.525 52.5913C103.886 51.9312 104.372 51.3995 104.98 51.0053C105.598 50.602 106.268 50.3911 107 50.3545C105.88 50.2903 104.936 49.8503 104.16 49.0069C103.384 48.1635 102.996 47.1642 102.996 46C102.996 47.1642 102.607 48.1635 101.831 49.0069Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </label>
+            </div>
+            <!-- <button class="btn-menu" type="button">
+                <i class="btn-menu__bars" aria-hidden="true"></i>
+            </button> -->
+
+            <div class="navbar2">
+                <div class="nav_links2">
+                    <p><a href='/home'>Home</a></p>
+                    <p><a href="#">About</a></p>
+                    <p><a href="#">Services</a></p>
+                    <p><a href="#">Portfolio</a></p>
+                    <p><a href="#">Contact</a></p>
+                </div>
+                <div class="nav_btn2">
+                    <button>Let's talk</button>
+                </div>
+            </div>
+        </div>
+        <div class="for_navigation_fixed">
+            <div id="navigation1" class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="#HOME">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#ABOUT">
+                        <span class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </span>
+                        <span class="text">About</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#SERVICES">
+                        <span class="icon">
+                            <ion-icon name="desktop-outline"></ion-icon>
+                        </span>
+                        <span class="text">Services</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#WORKS">
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
+                        <span class="text">Portfolio</span>
+                    </a>
+                </li>
+                
+                <li class="list">
+                    <a href="#CONTACT">
+                        <span class="icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </span>
+                        <span class="text">Contact</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+            </div>
+            <div id="navigation2" class="navigation">
+                <ul>
+                    <li class="list active">
+                        <a href="#HOME">
+                            <span class="icon">
+                                <ion-icon name="home-outline"></ion-icon>
+                            </span>
+                            <span class="text">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#ABOUT">
+                            <span class="icon">
+                                <ion-icon name="person-outline"></ion-icon>
+                            </span>
+                            <span class="text">About</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#SERVICES">
+                            <span class="icon">
+                                <ion-icon name="desktop-outline"></ion-icon>
+                            </span>
+                            <span class="text">Services</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#WORKS">
+                            <span class="icon">
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                            </span>
+                            <span class="text">Portfolio</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#CONTACT">
+                            <span class="icon">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span>
+                            <span class="text">Contact</span>
+                        </a>
+                    </li>
+                    <div class="indicator"></div>
+                </ul>
+                </div>
+    </div>
+
+        <div class="home_header_box">
+            <div class="home_box_top">
+                <a style="width: 100%;">
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="home_box_top_left">
+                        <div class="home_box_top_left_in_left">
+                            <img src="./img/me.png" alt="">
+                        </div>
+                        <div class="infos_big">
+                            <div class="home_box_top_infos">
+                                <h4>A WEB DESIGNER</h4>
+                                <h1>David Henderson.</h1>
+                                <p>I am a Web Designer based in san francisco.</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="home_box_top_right">
+                    <div class="home_box_top_right_top" data-aos="zoom-in" data-aos-duration="1000">
+                        <marquee id="marq" behavior="" direction=""><span>LATEST WORK AND <b>FEATURED</b></span><img src="./img/star1.svg" alt=""><span>LATEST WORK AND <b>FEATURED</b></span><img src="./img/star1.svg" alt=""><span>LATEST WORK AND <b>FEATURED</b></span><img src="./img/star1.svg" alt=""></marquee>
+                    </div>
+                    <div class="home_box_top_right_bottom">
+                        <div class="home_box_top_right_bottom_2" >
+                            <div class="home_box_top_right_bottom2_card" data-aos="zoom-in" data-aos-duration="1000">
+                                <img src="./img/sign.png" alt="">
+                                <div class="infos_big">
+                                    <div class="infos">
+                                        <h5 class="h_black">MORE ABOUT ME</h5>
+                                        <h4>Credentials</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="home_box_top_right_bottom2_card" data-aos="zoom-in" data-aos-duration="1000">
+                                <img src="img/my-works.png" alt="">
+                                <div class="infos_big">
+                                    <div class="infos">
+                                        <h5 class="h_black">SHOWCASE</h5>
+                                        <h4 class="h4">Projects</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_box_midle">
+                <div class="home_box_mid_right_bottom_2" >
+
+                    <div class="home_box_top_right_bottom3_card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="icon_boxes">
+                            <i class="iconoir-camera"></i>
+                            <i class="iconoir-design-pencil"></i>
+                            <i class="iconoir-color-filter"></i>
+                            <i class="iconoir-dev-mode-phone"></i>
+                        </div>
+                        <div class="infos_big">
+                            <div class="infos">
+                                <h5>SPECIALIZATION</h5>
+                                <h4>Services Offering</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home_box_top_right_bottom2_card" id="card2" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="inner-profile-icons">
+                            <a href="tel:123456789"><ion-icon name="call-outline"></ion-icon></a>
+                            <a href="https://web.whatsapp.com/"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        </div>
+                        <div class="infos_big">
+                            <div class="infos">
+                                <h5>STAY WITH ME</h5>
+                                <h4>Profiles</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home_box_top_right_bottom_3">
+                    <div class="home_box_midle_in_card">
+                        <div class="home_box_top_right_bottom3_card" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="icon_boxes">
+                                <i class="iconoir-camera"></i>
+                                <i class="iconoir-design-pencil"></i>
+                                <i class="iconoir-color-filter"></i>
+                                <i class="iconoir-dev-mode-phone"></i>
+                            </div>
+                            <div class="infos_big">
+                                <div class="infos">
+                                    <h5>SPECIALIZATION</h5>
+                                    <h4>Services Offering</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home_box_mid_midle">
+                        <div class="home_box_top_right_bottom2_card" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="inner-profile-icons">
+                                <a href="tel:123456789"><ion-icon name="call-outline"></ion-icon></a>
+                                <a href="https://web.whatsapp.com/"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                            </div>
+                            <div class="infos_big">
+                                <div class="infos">
+                                    <h5>STAY WITH ME</h5>
+                                    <h4>Profiles</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home_box_bottom">
+                <div class="home_box_bottom_left_card" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="home_box_bottom_left_cards">
+                        <h1>07</h1>
+                        <p>YEARS <br> EXPERIENCE</p>
+                    </div>
+                    <div class="home_box_bottom_left_cards">
+                        <h1>+125</h1>
+                        <p>CLIENTS WORLDWIDE</p>
+                    </div>
+                    <div class="home_box_bottom_left_cards">
+                        <h1>+210</h1>
+                        <p>TOTAL <br>PROJECTS</p>
+                    </div>
+                </div>
+
+                <!-- <div class="home_box_bottom_right_card"data-aos="zoom-in" data-aos-duration="1000">
+                    <img id="icon2" src="./img/icon2.png" alt="">
+                    <div class="infos_big">
+                        <div class="infos">
+                            <h1>Let's <br>work <span>together.</span></h1>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div id="ABOUT" class="about_container">
+        <div class="about_header">
+            <div class="about_top">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="about_top_left">
+                    <div class="about_top_left_for_img">
+                        <img src="./img/me2.png" alt="">
+                    </div>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1000" class="about_top_right">
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="about_top_right_h01">
+                        <h1><img id="star3" src="./img/star-2.png" alt="">SELF-SUMMARY<img id="star3" src="./img/star-2.png" alt=""></h1>
+                    </div>
+                    <div class="about_top_right_text">
+                        <h3>David Henderson</h3>
+                        <p>I am a San francisco-based product designer with a focus on web design, illustration, a visual development. I have a diverse range of experience having worked across various fields and industries.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about_midle">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="about_midle_2cards">
+                    <h5>Skills</h5>
+                <div class="for_flex_skills">
+                    <div class="about_midle_2cards_pas">
+                        <p>85%</p>
+                        <h3>JavaScript</h3>
+                        <span>Non enim praesent</span>
+                    </div>
+                    <div class="about_midle_2cards_pas">
+                        <p>85%</p>
+                        <h3>JavaScript</h3>
+                        <span>Non enim praesent</span>
+                    </div>
+                <div class="about_midle_2cards_pas">
+                    <p>92%</p>
+                    <h3>Figma</h3>
+                    <span>Non enim praesent</span>
+                </div>
+                <div class="about_midle_2cards_pas">
+                    <p>81%</p>
+                    <h3>React</h3>
+                    <span>Non enim praesent</span>
+                </div>
+                <div class="about_midle_2cards_pas">
+                    <p>78%</p>
+                    <h3>Python</h3>
+                    <span>Non enim praesent</span>
+                </div>
+            </div>
+                </div>
+            </div>
+
+            <div class="about_bottom">
+
+                <div data-aos="zoom-in" data-aos-duration="1000" class="about_box_bottom_right_card">
+                    <img id="icon2" src="./img/icon2.png" alt="">
+                    <div class="infos_big">
+                        <div class="infos">
+                            <h1>Let's <br>work <span>together.</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1000" class="about_box_top_right_bottom2_card">
+                    <div class="inner-profile-icons">
+                        <a href="tel:123456789"><ion-icon name="call-outline"></ion-icon></a>
+                        <a href="https://web.whatsapp.com/"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </div>
+                    <div class="infos_big">
+                        <div class="infos">
+                            <h5>STAY WITH ME</h5>
+                            <h4>Profiles</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div data-aos="zoom-in" data-aos-duration="1000" class="about_box_top_right_bottom2_card">
+                    <img src="./img/sign.png" alt="">
+                    <div class="infos_big">
+                        <div class="infos">
+                            <h5>MORE ABOUT ME</h5>
+                            <h4>Credentials</h4>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="about_bottom2">
+                <div class="about_box_bottom_right_card2">
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="about_box_bottom_right_card">
+                        <img id="icon2" src="./img/icon2.png" alt="">
+                        <div class="infos_big">
+                            <div class="infos">
+                                <h1>Let's <br>work <span>together.</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about_box_top_right_bottom2_card2">
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="about_box_top_right_bottom2_card">
+                        <div class="inner-profile-icons">
+                            <a href="tel:123456789"><ion-icon name="call-outline"></ion-icon></a>
+                            <a href="https://web.whatsapp.com/"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        </div>
+                        <div class="infos_big">
+                            <div class="infos">
+                                <h5>STAY WITH ME</h5>
+                                <h4>Profiles</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="about_box_top_right_bottom2_card">
+                        <img src="./img/sign.png" alt="">
+                        <div class="infos_big">
+                            <div class="infos">
+                                <h5>MORE ABOUT ME</h5>
+                                <h4>Credentials</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <div id="SERVICES" class="services_container">
+        <h1 class="for_titles_h1"><img id="star3" src="./img/star-2.png" alt="">SERVICES<img id="star3" src="./img/star-2.png" alt=""></h1>
+        <div id="for_swip1" data-aos="zoom-in" data-aos-duration="1000" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div  style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div  style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+            </div><div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+          <div id="for_swip2" data-aos="zoom-in" data-aos-duration="1000" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div  style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div  style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="home_card_black">
+                    <div style="background: url('https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg');" class="top-section">
+                      <div class="border"></div>
+                      <div class="icons">
+                        <div class="logo">
+                          50 000 р.
+                        </div>
+                        <!-- <div class="social-media">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                          </svg>
+                          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                          </svg>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="bottom-section">
+                      <span class="title">Проект №1 - 6x6</span>
+                      <!-- <div class="row row1">
+                        <div class="item">
+                          <span class="big-text">Размер</span>
+                          <span class="regular-text">6x6 м</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Комнат</span>
+                          <span class="regular-text">3</span>
+                        </div>
+                        <div class="item">
+                          <span class="big-text">Площадь</span>
+                          <span class="regular-text">60 м²</span>
+                        </div>
+                      </div> -->
+                      <a href="https://web.whatsapp.com/"><button>Записаться</button></a>
+                    </div>
+                  </div>
+              </div>
+            </div><div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },breakpoints: {
+          300: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          600: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          900: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+        });</script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <div id="WORKS" class="Main_work">
+        <div class="work_cards">
+            <h2 data-aos="zoom-in" data-aos-duration="1000" id="title_h2_1" class="title_h2"><img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/star-2.png" alt="">PORTFOLIO <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/star-2.png" alt=""></h2>
+            <div class="work_card_left">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="work_card">
+                    <div class="for_work_img">
+                            <img src="https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project1.jpeg" alt="">
+                        </div>
+                        <div class="work_titles">
+                            <div class="work_title">
+                                <p>WEB DESIGNING</p>
+                            </div>
+                            <!-- <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/icon.svg" alt=""> -->
+                        </div>
+                    <div class="work_card_black"> </div>    
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1000" id="works_card"  style="margin-top: 20px;" class="work_card">
+                    <div class="for_work_img">
+                            <img class="for_media_img" style="width: auto; height: 100%;" src="https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project2.jpeg" alt="">
+                        </div>
+                        <div class="work_titles">
+                            <div class="work_title">
+                                <p>PHOTOGRAPHY</p>
+                            </div>
+                            <!-- <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/icon.svg" alt=""> -->
+                        </div>
+                    <div class="work_card_black"> </div>    
+                </div>
+            </div>
+            <div class="work_cards_right">
+                <h2 data-aos="zoom-in" data-aos-duration="1000" id="title_h2_2" class="title_h2"><img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/star-2.png" alt="">PORTFOLIO <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/star-2.png" alt=""></h2>
+                <div class="work_card_right">
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="work_card">
+                        <div class="for_work_img">
+                                <img src="https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project3.jpeg" alt="">
+                            </div>
+                            <div class="work_titles">
+                                <div class="work_title">
+                                    <p>MOBILE DESIGNING</p>
+                                </div>
+                                <!-- <img class="gray" src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/icon.svg" alt=""> -->
+                            </div>
+                        <div class="work_card_black"> </div>    
+                    </div><div data-aos="zoom-in" data-aos-duration="1000" class="work_card">
+                        <div class="for_work_img">
+                                <img src="https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project4.jpeg" alt="">
+                            </div>
+                            <div class="work_titles">
+                                <div class="work_title">
+                                    <p>BRANDING</p>
+                                </div>
+                                <!-- <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/icon.svg" alt=""> -->
+                            </div>
+                        <div class="work_card_black"> </div>    
+                    </div><div data-aos="zoom-in" data-aos-duration="1000" class="work_card">
+                        <div class="for_work_img">
+                                <img src="https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project5.jpeg" alt="">
+                            </div>
+                            <div class="work_titles">
+                                <div class="work_title">
+                                    <p>MOBILE DESIGNING</p>
+                                </div>
+                                <!-- <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/icon.svg" alt=""> -->
+                            </div>
+                        <div class="work_card_black"> </div>    
+                    </div><div data-aos="zoom-in" data-aos-duration="1000" class="work_card">
+                        <div class="for_work_img">
+                                <img src="https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/project6.jpeg" alt="">
+                            </div>
+                            <div class="work_titles">
+                                <div class="work_title">
+                                    <p>WEB DESIGNING</p>
+                                </div>
+                                <!-- <img src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/icon.svg" alt=""> -->
+                            </div>
+                        <div class="work_card_black"> </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="for_otziv_main">
+            <h1 class="for_titles_h1"><img id="star3" src="./img/star-2.png" alt="">REVIEWS<img id="star3" src="./img/star-2.png" alt=""></h1>
+            <div id="mySwiper" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><div class="for_otziv_card">
+                    <div class="for_otziv_flex">
+                        <div class="for_otziv_img">
+                    <img src="https://avatars.mds.yandex.net/get-yapic/45848/o4JiTAix4AQUiGpJV3gsT81Te34-1/islands-68" alt="">
+                        </div>
+                    <h3>Марина Иванова</h3>
+                </div>
+                <p>Очень понравилась работа и внимательное отношение косметолога Милы
+                    Ходила на процедуру LPG довольна эффектом,после пары процедур появился тонус и кожа стала заметно эластичней!
+                    Сейчас хожу на процедуры по уходу за кожей лица и шеи,после пластической хирургии незаменимая процедура,моментально спал отёк,прекрасно проходит восстановление,качество кожи заметно улучшилось,реабилитация ускорилась в разы.Спасибо за рекомендации и внимание.</p>
+                </div></div>
+                  <div class="swiper-slide"><div class="for_otziv_card">
+                    <div class="for_otziv_flex">
+                        <div class="for_otziv_img">
+                    <img src="https://avatars.mds.yandex.net/get-yapic/45848/o4JiTAix4AQUiGpJV3gsT81Te34-1/islands-68" alt="">
+                        </div>
+                    <h3>Марина Иванова</h3>
+                </div>
+                <p>Очень понравилась работа и внимательное отношение косметолога Милы
+                    Ходила на процедуру LPG довольна эффектом,после пары процедур появился тонус и кожа стала заметно эластичней!
+                    Сейчас хожу на процедуры по уходу за кожей лица и шеи,после пластической хирургии незаменимая процедура,моментально спал отёк,прекрасно проходит восстановление,качество кожи заметно улучшилось,реабилитация ускорилась в разы.Спасибо за рекомендации и внимание.</p>
+                </div></div>
+                  <div class="swiper-slide"><div class="for_otziv_card">
+                    <div class="for_otziv_flex">
+                        <div class="for_otziv_img">
+                    <img src="https://avatars.mds.yandex.net/get-yapic/45848/o4JiTAix4AQUiGpJV3gsT81Te34-1/islands-68" alt="">
+                        </div>
+                    <h3>Марина Иванова</h3>
+                </div>
+                <p>Очень понравилась работа и внимательное отношение косметолога Милы
+                    Ходила на процедуру LPG довольна эффектом,после пары процедур появился тонус и кожа стала заметно эластичней!
+                    Сейчас хожу на процедуры по уходу за кожей лица и шеи,после пластической хирургии незаменимая процедура,моментально спал отёк,прекрасно проходит восстановление,качество кожи заметно улучшилось,реабилитация ускорилась в разы.Спасибо за рекомендации и внимание.</p>
+                </div></div>
+                  <div class="swiper-slide"><div class="for_otziv_card">
+                    <div class="for_otziv_flex">
+                        <div class="for_otziv_img">
+                    <img src="https://avatars.mds.yandex.net/get-yapic/45848/o4JiTAix4AQUiGpJV3gsT81Te34-1/islands-68" alt="">
+                        </div>
+                    <h3>Марина Иванова</h3>
+                </div>
+                <p>Очень понравилась работа и внимательное отношение косметолога Милы
+                    Ходила на процедуру LPG довольна эффектом,после пары процедур появился тонус и кожа стала заметно эластичней!
+                    Сейчас хожу на процедуры по уходу за кожей лица и шеи,после пластической хирургии незаменимая процедура,моментально спал отёк,прекрасно проходит восстановление,качество кожи заметно улучшилось,реабилитация ускорилась в разы.Спасибо за рекомендации и внимание.</p>
+                </div></div>
+                </div>
+                <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+              </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper("#mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },breakpoints: {
+          300: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          650: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+        },
+          });
+        </script></div>
+        
+    </div>
+    <div id="CONTACT" class="Contact_main">
+        <div class="for_contact_main">
+        <div class="contact_left">
+            <h3 data-aos="zoom-in" data-aos-duration="1000">CONTACT INFO</h3>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="for_flex_info">
+                <div class="for_div_info">
+                    <i class='bx bx-envelope'></i>
+                </div>
+                <div class="for_text_info">
+                    <h5>MAIL US</h5>
+                    <h4>info@bluebase.com</h4>
+                    <h3>info@bluebase2.com</h3>
+                </div>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="for_flex_info">
+                <div class="for_div_info">
+                    <i class='bx bxs-phone'></i>
+                </div>
+                <div class="for_text_info">
+                    <h5>CONTACT US</h5>
+                    <h4>+1 504-899-8221</h4>
+                    <h3>+1 504-749-5456</h3>
+                </div>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="for_flex_info">
+                <div class="for_div_info">
+                    <i class='bx bxs-location-plus' ></i>
+                </div>
+                <div class="for_text_info">
+                    <h5>LOCATION</h5>
+                    <h4>22 Baker Street, Texas
+                        United States
+                        W1U 3BW</h4>
+                </div>
+            </div>
+            <h3 data-aos="zoom-in" data-aos-duration="1000">SOCIAL INFO</h3>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="for_contact_circle_cards">
+                <div class="for_contact_circle">
+                    <i class='bx bxl-dribbble' ></i>
+                </div>
+                <div class="for_contact_circle">
+                    <i class='bx bxl-twitter' ></i>
+                </div>
+                <div class="for_contact_circle">
+                    <i class='bx bxl-instagram' ></i>
+                </div>
+            </div>
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="1000" class="contact_right">
+            <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191884.8398712116!2d69.11455620810692!3d41.2827379463425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2z0KLQsNGI0LrQtdC90YIsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1706008307289!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+
+        
+        
+        <div data-aos="zoom-in" data-aos-duration="1000" class="footer">
+            <div class="logo2">
+                <img src="./img/logo.svg" alt="">
+            </div>
+            <div class="footer_links">
+                <p><a href="https://kwork.ru/user/saygiddib">Где можно заказать такого сайта?</a></p>
+            </div>
+            <div class="footer_end">
+                <p>© All rights reserved by <a href="#">WordPressRiver</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+
+
+
+    <script>
+        
+
+
+        function back_style1() {
+            document.querySelector("#checkbox2").checked ? (localStorage.setItem("back_style", "moon")) : (localStorage.setItem("back_style", "sun")); window.location.reload()
+        }
+        if (localStorage.getItem("back_style") !== "sun") {
+            document.querySelector("#checkbox2").checked = true;
+        } else {
+            document.querySelector("#checkbox2").checked = false;
+        }
+        const list = document.querySelectorAll(".list");
+        function activelink() {
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active')
+        }
+        list.forEach((item)   =>
+        item.addEventListener('click',activelink));
+
+        if (localStorage.getItem("back_style") == "sun") {
+            document.querySelector("body").style="background:#fff"
+            document.querySelector("#marq").style="color:black"
+            for (let i = 0; i < document.querySelectorAll("a").length; i++) {
+                document.querySelectorAll("a")[i].style="color:black"
+            }
+            for (let i = 0; i < document.querySelectorAll("i").length; i++) {
+                document.querySelectorAll("i")[i].style="color:black"
+            }
+            for (let i = 0; i < document.querySelectorAll("h1").length; i++) {
+                document.querySelectorAll("h1")[i].style="color:black"
+            }
+            for (let i = 0; i < document.querySelectorAll("h2").length; i++) {
+                document.querySelectorAll("h2")[i].style="color:black"
+            }
+            for (let i = 0; i < document.querySelectorAll("h3").length; i++) {
+                document.querySelectorAll("h3")[i].style="color:black"
+            }
+            for (let i = 0; i < document.querySelectorAll("h4").length; i++) {
+                document.querySelectorAll("h4")[i].style="color:black"
+            }
+            for (let i = 0; i < document.querySelectorAll("h5").length; i++) {
+                document.querySelectorAll("h5")[i].style="color:black"
+            }
+            for (let i = 0; i < document.querySelectorAll("p").length; i++) {
+                document.querySelectorAll("p")[i].style="color:black;opacity:1"
+            }
+            for (let i = 0; i < document.querySelectorAll(".work_card").length; i++) {
+                document.querySelectorAll(".work_card")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"
+            }
+            for (let i = 0; i < document.querySelectorAll(".about_box_top_right_bottom2_card").length; i++) {
+                document.querySelectorAll(".about_box_top_right_bottom2_card")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".about_box_bottom_right_card").length; i++) {
+                document.querySelectorAll(".about_box_bottom_right_card")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".home_box_top_right_bottom_2 .home_box_top_right_bottom2_card").length; i++) {
+                document.querySelectorAll(".home_box_top_right_bottom_2 .home_box_top_right_bottom2_card")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".home_box_top_right_bottom2_card").length; i++) {
+                document.querySelectorAll(".home_box_top_right_bottom2_card")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".about_midle_2cards").length; i++) {
+                document.querySelectorAll(".about_midle_2cards")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll("ion-icon").length; i++) {
+                document.querySelectorAll("ion-icon")[i].style="color:black"
+            }
+            for (let i = 0; i < document.querySelectorAll(".navigation").length; i++) {
+                document.querySelectorAll(".navigation")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background: 	#DCDCDC"
+            }
+            for (let i = 0; i < document.querySelectorAll(".indicator").length; i++) {
+                document.querySelectorAll(".indicator")[i].style="background: 	#DCDCDC;"
+            }
+            for (let i = 0; i < document.querySelectorAll(".home_box_top_right_bottom3_card").length; i++) {
+                document.querySelectorAll(".home_box_top_right_bottom3_card")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".for_div_info").length; i++) {
+                document.querySelectorAll(".for_div_info")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".for_contact_circle").length; i++) {
+                document.querySelectorAll(".for_contact_circle")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".contact_inputs_card input").length; i++) {
+                document.querySelectorAll(".contact_inputs_card input")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".about_midle_2cards_pas").length; i++) {
+                document.querySelectorAll(".about_midle_2cards_pas")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".home_box_top_right_top").length; i++) {
+                document.querySelectorAll(".home_box_top_right_top")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".home_box_bottom_left_cards").length; i++) {
+                document.querySelectorAll(".home_box_bottom_left_cards")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            }
+            for (let i = 0; i < document.querySelectorAll(".home_card_black").length; i++) {
+                document.querySelectorAll(".home_card_black")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none;background: white"
+            }
+            for (let i = 0; i < document.querySelectorAll(".for_otziv_card").length; i++) {
+                document.querySelectorAll(".for_otziv_card")[i].style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none;background: white"
+            }
+            for (let i = 0; i < document.querySelectorAll(".home_card_black .top-section .border").length; i++) {
+                document.querySelectorAll(".home_card_black .top-section .border")[i].style="box-shadow: -5px -5px 2 2px white;background:white; border:none;"
+            }
+            for (let i = 0; i < document.querySelectorAll(".home_card_black .top-section .icons .logo").length; i++) {
+                document.querySelectorAll(".home_card_black .top-section .icons .logo")[i].style="color:black"
+            }
+            for (let i = 0; i < document.querySelectorAll(".home_card_black .bottom-section .title").length; i++) {
+                document.querySelectorAll(".home_card_black .bottom-section .title")[i].style="color:black"
+            }
+            for (let i = 0; i < document.querySelectorAll(".bottom-section button").length; i++) {
+                document.querySelectorAll(".bottom-section button")[i].style="color:black;border: 1px solid black"
+            }
+            document.querySelector("#for_swip2").style="display:flex"
+            document.querySelector("#for_swip1").style="display:none"
+            document.querySelector(".navbar").style="background:white"
+            document.querySelector("#navigation1").style="display:none !important"
+            document.querySelector("#navigation2").style="display:flex !important;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; background: 	#DCDCDC"
+            document.querySelector("#works_card").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; margin-top: 20px !important"
+            document.querySelector(".home_box_top_left").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"
+            document.querySelector(".home_box_bottom_left_card").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"
+            document.querySelector(".about_top_right_text").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"
+            document.querySelector(".home_box_bottom_right_card").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;"
+            document.querySelector(".home_box_mid_right_bottom_2 .home_box_top_right_bottom2_card").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none"
+            document.querySelector(".about_top_left").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none" 
+            document.querySelector(".inner-profile-icons").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none !important"    
+            document.querySelector(".about_top_right_text").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none !important"  
+            document.querySelector(".contact_right_card").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none !important"  
+            document.querySelector(".contact_inputs_card textarea").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none !important" 
+            document.querySelector(".contact_right_card button").style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border:none !important;background: white;color:black"
+        }else{
+            document.querySelector("#for_swip1").style="display:flex"
+            document.querySelector("#for_swip2").style="display:none"
+            document.querySelector("#navigation1").style="display:flex !important"
+            document.querySelector("#navigation2").style="display:none !important"
+        }
+    </script>
+</body>
+</html>
